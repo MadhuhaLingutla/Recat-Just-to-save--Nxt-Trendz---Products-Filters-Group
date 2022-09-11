@@ -1,0 +1,73 @@
+.filters-group-container {
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.category-filters {
+}
+.category-heading {
+  color: #0f172a;
+  font-size: 20px;
+}
+.category-filters-list {
+  list-style: none;
+  padding-left: 0px;
+}
+.category-item {
+  margin-bottom: 20px;
+}
+.category-button {
+  border: none;
+  background-color: transparent;
+  color: #475569;
+  font-size: 17px;
+}
+.ratings-filters {
+}
+
+.rating-heading {
+  color: #0f172a;
+  font-size: 20px;
+}
+.ratings-filters-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.rating-item {
+}
+.rating-button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.rating-image {
+  width: 200px;
+  height: 30px;
+  margin-right: 10px;
+}
+.rating-description {
+  color: #475569;
+  font-size: 17px;
+}
+.clear-button {
+  color: #0967d2;
+  border: 1px solid #0967d2;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: transparent;
+  font-weight: bold;
+}
